@@ -80,7 +80,7 @@ const Game = () => {
 
   return (
     <div style={{ textAlign: 'center' }}>
-      <h1>Mexico Bingo</h1>
+      <h1> Lottery Game</h1>
       <div style={{ display: 'flex', justifyContent: 'space-around' }}>
         <Grid grid={user1Grid} user={1} handleChange={handleChange} gameStarted={gameStarted} drawnNumbers={drawnNumbers} />
         <Grid grid={user2Grid} user={2} handleChange={handleChange} gameStarted={gameStarted} drawnNumbers={drawnNumbers} />
